@@ -1,5 +1,5 @@
 # Dùng Tomcat chính thức từ Docker Hub
-FROM tomcat:9.0-jdk8
+FROM tomcat:9.0-jdk17
 
 # Xóa webapp mặc định (ROOT)
 RUN rm -rf /usr/local/tomcat/webapps/ROOT
